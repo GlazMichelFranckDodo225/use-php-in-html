@@ -7,12 +7,6 @@
     <title>Use PHP in HTML</title>
 </head>
 <body>
-    <?php
-        echo 'Content here';
-
-        echo '<br>';
-
-        echo date('h:i:s A');
-    ?>
+    <p>Currently he is : <?= date('h:i:s A') ?></p>
 </body>
 </html>
