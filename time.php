@@ -9,6 +9,10 @@
 <body>
     <?php
         echo 'Content here';
+
+        echo '<br>';
+
+        echo date('h:i:s A');
     ?>
 </body>
 </html>
