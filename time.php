@@ -7,6 +7,8 @@
     <title>Use PHP in HTML</title>
 </head>
 <body>
-    Content here
+    <?php
+        echo 'Content here';
+    ?>
 </body>
 </html>
